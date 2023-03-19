@@ -4,9 +4,9 @@ using System;
 namespace UnityTextureReaderD3D
 {
     /// <summary>
-    /// ITexturePixelDataAccessor is an interface that defines methods for accessing pixel data from a Unity texture.
+    /// ITexturePixelDataReaderD3D is an interface that defines methods for reading pixel data from a Unity texture.
     /// </summary>
-    public interface ITexturePixelDataAccessorD3D
+    public interface ITexturePixelDataReaderD3D
     {
         /// <summary>
         /// GetPixelDataFromTexture retrieves pixel data from a Unity texture and returns a pointer to it.
@@ -23,9 +23,9 @@ namespace UnityTextureReaderD3D
     }
 
     /// <summary>
-    /// DirectX11TexturePixelDataAccessor is a class that implements the ITexturePixelDataAccessor interface for DirectX11.
+    /// Direct3D11TexturePixelDataReader is a class that implements the ITexturePixelDataReaderD3D interface for Direct3D11.
     /// </summary>
-    public class DirectX11TexturePixelDataAccessor : ITexturePixelDataAccessorD3D
+    public class Direct3D11TexturePixelDataReader : ITexturePixelDataReaderD3D
     {
         /// <summary>
         /// GetPixelDataFromTexture retrieves pixel data from a Unity texture and returns a pointer to it.
@@ -48,9 +48,9 @@ namespace UnityTextureReaderD3D
     }
 
     /// <summary>
-    /// DirectX12TexturePixelDataAccessor is a class that implements the ITexturePixelDataAccessor interface for DirectX12.
+    /// Direct3D12TexturePixelDataAccessor is a class that implements the ITexturePixelDataReaderD3D interface for Direct3D12.
     /// </summary>
-    public class DirectX12TexturePixelDataAccessor : ITexturePixelDataAccessorD3D
+    public class Direct3D12TexturePixelDataAccessor : ITexturePixelDataReaderD3D
     {
         /// <summary>
         /// GetPixelDataFromTexture retrieves pixel data from a Unity texture and returns a pointer to it.
