@@ -50,29 +50,29 @@ using UnityTextureReaderD3D;
 
 public class TextureReaderExample : MonoBehaviour
 {
-    private ITexturePixelDataAccessor _texturePixelDataAccessor;
+    private ITexturePixelDataReaderD3D _texturePixelDataReaderD3D;
 
     private void Start()
     {
         if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Direct3D11)
         {
-            _texturePixelDataAccessor = new DirectX11TexturePixelDataAccessor();
+            _texturePixelDataReaderD3D = new Direct3D11TexturePixelDataReader();
         }
         else if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Direct3D12)
         {
-            _texturePixelDataAccessor = new DirectX12TexturePixelDataAccessor();
+            _texturePixelDataReaderD3D = new Direct3D12TexturePixelDataReader();
         }
     }
 
     private void ReadPixels(Texture2D texture)
     {
-        IntPtr pixelDataPtr = _texturePixelDataAccessor.GetPixelDataFromTexture(texture.GetNativeTexturePtr());
+        IntPtr pixelDataPtr = _texturePixelDataReaderD3D.GetPixelDataFromTexture(texture.GetNativeTexturePtr());
 
         if (pixelDataPtr != IntPtr.Zero)
         {
             // Process pixel data...
 
-            _texturePixelDataAccessor.FreePixelData(pixelDataPtr);
+            _texturePixelDataReaderD3D.FreePixelData(pixelDataPtr);
         }
     }
 }
