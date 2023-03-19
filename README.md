@@ -21,7 +21,7 @@ You can install the UnityTextureReaderD3D package using the Unity Package Manage
 1. Open your Unity project.
 2. Go to Window > Package Manager.
 3. Click the "+" button in the top left corner, and choose "Add package from git URL..."
-4. Enter the GitHub repository URL, for example: `https://github.com/cj-mills/UnityTextureReaderD3D.git`
+4. Enter the GitHub repository URL: `https://github.com/cj-mills/UnityTextureReaderD3D.git`
 5. Click "Add". The package will be added to your project.
 
 For Unity versions older than 2021.1, add the Git URL to the `manifest.json` file in your project's `Packages` folder as a dependency:
