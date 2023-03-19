@@ -1,10 +1,10 @@
 # UnityTextureReaderD3D
 
-UnityTextureReaderD3D is a plugin package for Unity that enables easy access to pixel data from DirectX 11 and DirectX 12 textures. The package includes native plugins for both APIs, providing efficient texture reading without the need for additional scripts or workarounds.
+UnityTextureReaderD3D is a plugin package for Unity that enables easy access to pixel data from Direct3D11 and Direct3D12 textures. The package includes native plugins for both APIs, providing efficient texture reading without the need for additional scripts or workarounds.
 
 ## Features
 
-- Supports DirectX 11 and DirectX 12 textures.
+- Supports Direct3D11 and Direct3D12 textures.
 - Efficient and easy-to-use native plugins.
 - Compatible with Unity game engine.
 
@@ -12,7 +12,7 @@ UnityTextureReaderD3D is a plugin package for Unity that enables easy access to 
 
 ### Prerequisites
 
-- Unity game engine (compatible with DirectX 11 and DirectX 12)
+- Unity game engine (compatible with Direct3D11 and Direct3D12)
 
 ### Installation
 
