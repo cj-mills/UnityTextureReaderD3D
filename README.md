@@ -45,6 +45,7 @@ Here's an example of how to use the package:
 
 
 ```c#
+using System;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityTextureReaderD3D;
