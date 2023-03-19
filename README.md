@@ -46,6 +46,7 @@ Here's an example of how to use the package:
 
 ```c#
 using UnityEngine;
+using UnityTextureReaderD3D;
 
 public class TextureReaderExample : MonoBehaviour
 {
