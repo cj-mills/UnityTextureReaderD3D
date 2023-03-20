@@ -2,7 +2,7 @@
     "name": "com.cj-mills.unitytexturereaderd3d",
     "displayName": "UnityTextureReaderD3D",
     "version": "1.0.0",
-    "unity": "2021.3",
+    "unity": "2020.3",
     "description": "A plugin package for Unity that enables easy access to pixel data from Direct3D11 and Direct3D12 textures.",
     "keywords": [
         "unity",
