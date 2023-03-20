@@ -82,6 +82,12 @@ public class TextureReaderExample : MonoBehaviour
 
 
 
+## Demo Project
+
+A demo project called [UnityTextureReaderD3D_Demo](https://github.com/cj-mills/UnityTextureReaderD3D_Demo) is available to help you get started with using the `UnityTextureReaderD3D` package. The demo project demonstrates how to access and read pixel data from Direct3D11 and Direct3D12 textures in Unity. To get started, simply clone the demo project, open it in Unity, and follow the instructions provided in the demo project's README.
+
+
+
 ## Contributing
 
 If you would like to contribute to this project, please feel free to submit a pull request or open an issue on the repository.
