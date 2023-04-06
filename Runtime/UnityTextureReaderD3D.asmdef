@@ -1,5 +1,5 @@
 {
-    "name": "UnityTextureReaderD3D",
+    "name": "CJM.UnityTextureReaderD3D",
     "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [],
