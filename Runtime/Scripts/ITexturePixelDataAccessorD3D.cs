@@ -1,7 +1,7 @@
 using System;
 
 
-namespace UnityTextureReaderD3D
+namespace CJM.UnityTextureReaderD3D
 {
     /// <summary>
     /// ITexturePixelDataReaderD3D is an interface that defines methods for reading pixel data from a Unity texture.
