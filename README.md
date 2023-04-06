@@ -48,7 +48,7 @@ Here's an example of how to use the package:
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
-using UnityTextureReaderD3D;
+using CJM.UnityTextureReaderD3D;
 
 public class TextureReaderExample : MonoBehaviour
 {
