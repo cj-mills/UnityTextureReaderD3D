@@ -2,7 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 
 
-namespace UnityTextureReaderD3D
+namespace CJM.UnityTextureReaderD3D
 {
     public static class UnityTextureReaderD3D11
     {
